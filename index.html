@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f8eee8"><title>Una cosita entre tú y yo 💌</title>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<main>
+<header><a href="./" aria-label="Volver al inicio">entre tú & yo <span>♡</span></a><span>UNA PEQUEÑA CONFESIÓN</span></header>
+<section class="intro" id="intro">
+<p class="eyebrow">PARA KARUT, MI PERSONA FAVORITA</p>
+<h1>Karut, hay algo que<br>te quiero <em>decir.</em></h1>
+<p class="description">Pero primero, una pequeña dinámica.<br>Prometo que vale la pena llegar al final.</p>
+<button id="begin" class="primary">Abrir mi corazón <span>↗</span></button>
+<p class="small">Solo necesitas un minuto y esa sonrisa tuya.</p>
+<div class="envelope" aria-hidden="true"><div class="letter">tú haces mis días<br><em>más bonitos.</em><span>♡</span></div><div class="front"></div><div class="seal">♥</div></div>
+<span class="scribble" aria-hidden="true">sí, esto es para ti ↗</span>
+</section>
+<section class="game" id="game" hidden aria-labelledby="game-title">
+<p class="eyebrow" id="progress">01 / 03 · UNA CONFESIÓN A LA VEZ</p>
+<h2 id="game-title" tabindex="-1">¿Sabes qué me pasa contigo?</h2>
+<p class="description" id="game-description">Elige una. Aquí no hay respuestas incorrectas, solo excusas para coquetear.</p>
+<div class="choices" id="choices"></div>
+<p class="feedback" id="feedback" aria-live="polite"></p>
+<button class="primary" id="next" hidden>Cuéntame más <span>↗</span></button>
+</section>
+<section class="ending" id="ending" hidden aria-labelledby="ending-title">
+<p class="eyebrow">MI PARTE FAVORITA DE ESTA HISTORIA ERES TÚ</p>
+<div class="big-heart" aria-hidden="true">♡</div>
+<h2 id="ending-title" tabindex="-1">¿Quieres ser mi amigo<br><em>por siempre?</em></h2>
+<p class="description">Te amo por lo que eres, por las risas y por todo lo que nos falta vivir. Si me dejas elegir, te elijo a ti. Una y otra vez.</p>
+<a class="primary" id="whatsapp" target="_blank" rel="noopener noreferrer">Sí, por siempre 💚 <span>↗</span></a>
+<p class="small" id="whatsapp-note">Se abrirá WhatsApp con tu respuesta. Tú decides cuándo enviarla.</p>
+<button class="secondary" id="think">Necesito pensarlo un poquito</button>
+<p id="think-note" class="feedback" aria-live="polite"></p>
+<button class="secondary" id="restart">Volver a leer mi confesión</button>
+</section>
+<footer><span>HECHO CON MUCHO AMOR</span><span>y un poquito de nervios ♡</span></footer>
+</main>
+</body>
+</html>
